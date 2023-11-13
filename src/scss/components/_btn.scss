@@ -1,0 +1,35 @@
+@use '../vars';
+
+.btn{
+    background-color: vars.$blue-light;
+    color: white;
+    padding: 1rem 1rem;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 2rem;
+    font-size: 0.8rem;
+    border: 3px solid vars.$blue-light;
+    &:hover{
+        background-color: transparent;
+        color: vars.$blue-light;
+    }
+    
+    &--border{
+        background-color: transparent;
+        color: vars.$blue-light;
+        &:hover{
+            background-color: vars.$blue-light;
+            color: white;
+        }
+    }
+
+    &--red{
+        background-color: vars.$red-dark;
+        color: white;
+        border-color: vars.$red-dark;
+        &:hover{
+            background-color: vars.$blue-light;
+            color: white;
+        }
+    }
+}

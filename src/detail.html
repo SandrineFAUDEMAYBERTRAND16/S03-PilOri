@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details d'un article - Pilori</title>
+    <link rel="stylesheet" href="./scss/index.scss">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <script src="./js/global.js" type="module" defer></script>
+</head>
+<body>
+    <header class="header">
+        <a class="logo" href="./index.html" title="Retour à l'accueil">
+            <img class="logo-img" src="./img/logo.svg" alt="PilOri">
+        </a>
+        <nav class="menu">
+            <a class="menu-link" href="./list.html">Toutes les tomates</a>
+            <a class="menu-link" href="#">Dénoncer</a>
+        </nav>
+        <div class="header-tools">
+            <form class="search">
+                <input class="search-input" type="search" placeholder="Rechercher...">
+                <button class="search-submit" type="submit">
+                    <i data-feather="search"></i>
+                </button>
+            </form>
+            <div class="account">
+                <a class="account-link account-link--mobile" href="#"><i data-feather="search"></i></a>
+                <a class="account-link" href="#"><i data-feather="user"></i></a>
+                <a class="account-link" href="#"><i data-feather="log-out"></i></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="article">
+            <header class="article__header">
+                <hgroup>
+                    <h1 class="article__title">
+                        Doctolib
+                    </h1>
+                    <p class="article__subject">Doctolib ne fonctionne pas !</p>
+                </hgroup>
+                
+                
+                    <span class="article__tag article__tag--cat">Moche</span>
+                    <span class="article__tag article__tag--counter"><i data-feather="circle"
+                            class="article__tag-ico"></i>250</span>
+                
+            </header>
+
+            <figure>
+                <img src="./img/bandeau.png" alt="" class="article__img">
+                <figcaption class="article__legend">Dysfontcionnement de Doctolib</figcaption>
+            </figure>
+
+            <ul class="article__list">
+                <li class="article__listItem"><span>Reporteur:</span> Marie Dupont</li>
+                <li class="article__listItem"><span>Type:</span> Bloquant</li>
+                <li class="article__listItem"><span>Support:</span>Ordinateur</li>
+            </ul>
+
+            <p class="article__desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dicta voluptatum quibusdam aut distinctio repellendus itaque nisi porro sapiente! Minus tenetur illo autem ipsum labore nihil modi tempore deserunt voluptatibus!
+            </p>
+
+            <div class="article__actions">
+                <a href="#" class="btn">Voir le dysfontcionnement</a>
+                <a href="#" class="btn"><i data-feather="check"></i>Inaccessibilité corrigée</a>
+                <a href="#" class="btn btn--red"><i data-feather="circle"></i>Lancer une tomate</a>
+            </div>
+
+            <footer class="article__back">
+                <a href="./list.html" class="btn">Retour à la liste</a>
+            </footer>
+        </section>
+    </main>
+    <footer class="footer">
+        <a class="footer-link" href="#">Plan du site</a>
+        <a class="footer-link" href="#">Mentions légales</a>
+        <a class="footer-link" href="#">Contact</a>
+    </footer>
+</body>
+</html>

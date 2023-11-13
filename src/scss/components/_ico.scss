@@ -1,0 +1,18 @@
+@use '../vars';
+
+.ico{
+    background-color: vars.$blue-light;
+    color: white;
+    padding: 0.4rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+    &--tomato{
+        background-color: vars.$red-dark;
+    }
+
+    &--share{
+        background-color:vars.$blue-dark;
+    }
+}

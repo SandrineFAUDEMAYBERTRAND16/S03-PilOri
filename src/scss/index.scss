@@ -1,0 +1,18 @@
+@use 'reset-css';
+
+@use './font';
+@use './global.scss';
+
+@use './components/account.scss';
+@use './components/footer.scss';
+@use './components/header.scss';
+@use './components/logo.scss';
+@use './components/menu.scss';
+@use './components/search.scss';
+@use './components/segments';
+@use './components/btn';
+@use './components/card';
+@use './components/ico';
+@use './components/form';
+@use './components/pagination';
+@use './components/article';
